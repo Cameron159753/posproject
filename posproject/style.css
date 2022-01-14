@@ -1,0 +1,24 @@
+#products {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  img {
+    height: 300px !important;
+    object-fit: cover;
+  }
+  
+  .card {
+    width: calc((100% / 4) - 20px);
+    min-width: 300px;
+  }
+  
+  .card-title {
+    text-transform: capitalize;
+  }
+  
+ 
+  
+  form-label{
+    color: white;
+  }
